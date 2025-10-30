@@ -8,16 +8,15 @@ export default function Certifications() {
           key={cert.title}
           className="glass rounded-2xl p-6 border border-gray-800 hover:border-blue-500 hover:shadow-[0_0_12px_rgba(0,180,255,0.4)] transition-all duration-300"
         >
-          {/* Header: Blue Google Logo + Title */}
+          {/* Header: Masked neon-blue Google logo + title */}
           <div className="flex items-center gap-3 mb-3">
-            {/* ?? replace the <img> with this div */}
             <div className="relative w-10 h-10">
               <div
                 className="absolute inset-0 bg-[rgba(0,180,255,0.9)]"
                 style={{
                   mask: `url(${cert.logo}) center/contain no-repeat`,
                   WebkitMask: `url(${cert.logo}) center/contain no-repeat`,
-                  filter: "drop-shadow(0 0 8px rgba(0,180,255,0.6))",
+                  filter: "drop-shadow(0 0 10px rgba(0,180,255,0.6))",
                 }}
               />
             </div>
@@ -32,7 +31,7 @@ export default function Certifications() {
           <p className="text-sm text-gray-400 mt-1">{cert.date}</p>
           <p className="text-gray-400 text-sm mt-2">{cert.description}</p>
 
-          {/* Footer: Link */}
+          {/* Footer: View Credential */}
           <a
             href={cert.link}
             target="_blank"
