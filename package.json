@@ -1,0 +1,30 @@
+{
+  "name": "manas-portfolio-final",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "homepage": "https://mjnotfound-19.github.io/MJ_not_found/",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
+  },
+  "dependencies": {
+    "framer-motion": "^11.0.0",
+    "lenis": "^1.0.42",
+    "lucide-react": "^0.460.0",
+    "react": "^18.3.1",
+    "react-animated-cursor": "^2.5.3",
+    "react-dom": "^18.3.1"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^4.3.4",
+    "autoprefixer": "^10.4.18",
+    "gh-pages": "^6.3.0",
+    "postcss": "^8.4.35",
+    "tailwindcss": "^3.4.10",
+    "vite": "^5.4.0"
+  }
+}
