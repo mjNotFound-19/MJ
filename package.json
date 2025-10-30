@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "private": true,
   "type": "module",
-  "homepage": "https://mjnotfound-19.github.io/MJ_not_found/",
+  "homepage": "https://mjnotfound-19.github.io/MJ/",
   "scripts": {
     "dev": "vite",
     "build": "vite build",

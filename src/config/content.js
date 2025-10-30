@@ -80,7 +80,7 @@ export const CERTIFICATIONS = [
     title: "Google Cybersecurity Professional Certificate",
     issuer: "Google Career Certificates / Coursera",
     date: "June 2023",
-    logo: "/MJ_not_found/google-g.svg",
+    logo: "/MJ/google-logo.svg",
     link: "https://www.credly.com/badges/f4aed5da-536f-4f3d-9f4c-dd80c17dd9e6/linked_in_profile",
     description:
       "Validated practical expertise in network security, incident response, threat analysis, and risk management through Google's Cybersecurity training."
